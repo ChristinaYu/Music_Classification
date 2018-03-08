@@ -1,4 +1,4 @@
-1.Please make sure the training files are in the folder named: genres</br>
+1. Please make sure the training files are in the folder named: genres</br>
 And the testing files are in the folder named: validate</br>
 </br>
 2. To process preprocessing.py, it may take up to 20 minutes. It will generate 
