@@ -7,7 +7,7 @@ methods.The outputs are training1,2,3 and testing1,2,3. </br>
 </br>
 3. The libraries we used are: scikits.talkbox, sklearn and matplotlib</br>
 </br>
-We also used Machine learning tools like Weka and Orange to help us testing the data.
+We also used Weka and Orange to help us testing the data.
 
 
 
