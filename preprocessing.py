@@ -88,8 +88,8 @@ for f in dirs:
 		outputWriter2.writerow(y)
 
 		# testing file to be used for DWT & PCA
-		(cA, cD) = pywt.dwt(data,'haar')
-		feature3datatest.append(abs(cA[:10000]))
+		compressed, (a, b, c) = pywt.dwt2(data,'haar')
+		feature3datatest.append(abs(compressed[:10000]))
 		#outputWriter3.writerow(np.abs(cA[:1000]))
 feature3datatest=np.array(feature3datatest)
 print feature3datatest.shape
